@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.014" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\课内\159251\tut4\tutorial4\target\test-classes;D:\课内\159251\tut4\tutorial4\target\classes;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\JAVA\JDK\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire1599016142460662615\surefirebooter7492453146818487030.jar C:\Users\lenovo\AppData\Local\Temp\surefire1599016142460662615 2023-09-24T21-29-28_018-jvmRun1 surefire3407385384047198842tmp surefire_05521476887621418878tmp"/>
+    <property name="surefire.test.class.path" value="D:\课内\159251\tut4\tutorial4\target\test-classes;D:\课内\159251\tut4\tutorial4\target\classes;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;D:\Playground\apache-maven-3.9.4\maven_repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\lenovo"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\JAVA\JDK\jre"/>
+    <property name="basedir" value="D:\课内\159251\tut4\tutorial4"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire1599016142460662615\surefirebooter7492453146818487030.jar"/>
+    <property name="sun.boot.class.path" value="D:\JAVA\JDK\jre\lib\resources.jar;D:\JAVA\JDK\jre\lib\rt.jar;D:\JAVA\JDK\jre\lib\jsse.jar;D:\JAVA\JDK\jre\lib\jce.jar;D:\JAVA\JDK\jre\lib\charsets.jar;D:\JAVA\JDK\jre\lib\jfr.jar;D:\JAVA\JDK\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_361-b09"/>
+    <property name="user.name" value="lenovo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\JAVA\JDK\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Playground\apache-maven-3.9.4\maven_repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_361"/>
+    <property name="user.dir" value="D:\课内\159251\tut4\tutorial4"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\JAVA\JDK\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Compilers\mingw64\bin;D:\JAVA\JRE\bin;D:\JAVA\JDK\bin;D:\Matlab R2020b\runtime\win64;D:\Matlab R2020b\bin;D:\Playground\apache-maven-3.9.4\bin;D:\Playground\python3.11.3\Scripts\;D:\Playground\python3.11.3\;D:\Playground\Scripts\;D:\Playground\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\JetBrains\CLion 2021.2.2\bin;;D:\html\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.361-b09"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="D:\JAVA\JDK\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0.004"/>
+  <testcase name="testSubtraction" classname="org.example.CalcTest" time="0.006">
+    <failure message="expected: &lt;2&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <8>
+	at org.example.CalcTest.testSubtraction(CalcTest.java:16)
+]]></failure>
+  </testcase>
+</testsuite>
